@@ -1,0 +1,24 @@
+﻿@model IEnumerable<MVC_Assignment.Models.User>
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>On which entity do you work on?</h1>
+
+
+<table class="table">
+    
+    <tbody>
+        
+                <td>
+            @Html.ActionLink("User", "Index", "User")
+            @Html.ActionLink("Batch", "Index", "Batch")
+            @Html.ActionLink("Course", "Index", "Course")
+
+
+    </td>
+            </tr>
+        
+    </tbody>
+</table>
